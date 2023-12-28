@@ -18,7 +18,7 @@ The Pagila database is the Postgresql version of the Sakila database that was de
 
 This repository consists of a folder and two files.
 The folder contains images of the pagila sample database used and the data warehouse Schema we will be working on.
-- file Workspace.ipynb is a jupyter notebook that explains the step by step process of achieving this task.
+- file Workspace.ipynb is a jupyter notebook that explains the step-by-step process of achieving this task.
 - Readme.md
 
 #### The GOAL
@@ -26,8 +26,10 @@ The goal of the project is to create a star-schema data warehouse.
 
 ##### Star Schema - Entity Relationship Diagram
 <img src="images/pagila-star.png" width="50%"/>
-##### Future work
-Automate the process of moving data from the OLTP into the data warehouse
-Methods that can be used include
-- a Python script that is scheduled to run at a specific period. The implication will be that the data warehouse will be behind by some specified time.
-- Automate the process using orchestration tools like airflow or Prefect.
+
+#### Future work
+Automate the process of moving data from the OLTP into the data warehouse.
+
+Methods that can be used include:
+  - a Python script that is scheduled to run at a specific period. The implication will be that the data warehouse will be behind by some specified time.
+  - Automate the process using orchestration tools like airflow or Prefect.
